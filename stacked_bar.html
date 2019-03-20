@@ -113,7 +113,9 @@
         barmode: 'stack'
     };
 
-    Plotly.newPlot('stacked-bar', data, layout);
+    Plotly.newPlot('stacked-bar', data, layout, {
+        responsive: true,
+    });
 
     </script>
 </body>
