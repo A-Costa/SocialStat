@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+    #myDiv {
+        width:50%;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div id='myDiv'></div>
+    <script>
+    var y0 = [];
+    var y1 = [];
+    for (var i = 0; i < 50; i++) {
+        y0[i] = Math.random();
+        y1[i] = Math.random() + 1;
+    }
+
+    var trace1 = {
+        y: y0,
+        type: 'box'
+    };
+
+    var trace2 = {
+        y: y1,
+        type: 'box'
+    };
+
+    var data = [trace1, trace2];
+
+    var layout = {
+        title: 'Test Boxplot',
+        font: {
+            size: 12
+        }
+    };
+
+    Plotly.newPlot('myDiv', data, layout, {responsive: true});
+
+    </script>
+</body>
