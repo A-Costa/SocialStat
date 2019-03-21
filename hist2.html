@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+    #hist2 {
+        width: 75%;
+        align: center;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div id='hist2'></div>
+    <script>
+
+    trace1 = {
+      x:['McDonald\'s','KFC','Burger King','Wendy\'s','Hardee\'s','Quiznos'],
+      y:[468.94,258.72,280.38,436.08,122.16,39.04],
+      name:'McDonald\'s',
+      type: 'bar'
+    }
+        data = [trace1]
+    var layout = {
+        title: 'Histrogram of Shares',
+        font: {
+            size: 12
+        }
+    };
+        Plotly.newPlot('hist2', data, layout);
+
+   </script>
+</body>
