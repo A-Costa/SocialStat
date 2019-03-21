@@ -9,7 +9,6 @@ var layout = {
     title: 'Histrogram of Average Comments',
     font: {
         size: 12
-    },
-    showlegend: true
+    }
 };
     Plotly.newPlot('hist3', data, layout);
