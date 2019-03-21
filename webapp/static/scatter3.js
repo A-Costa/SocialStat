@@ -82,7 +82,7 @@ var trace2 = {
 var data = [trace1,trace2];
 
 var layout = {
-    title: 'Likes vs Shares',
+    title: 'Likes vs Shares by Post Content',
     font: {
         size: 12
     },

@@ -74,7 +74,7 @@ var trace3 = {
 var data = [trace1,trace2,trace3];
 
 var layout = {
-    title: 'Likes vs Comments',
+    title: 'Likes vs Comments by Deg. of Popularity',
     font: {
         size: 12
     },

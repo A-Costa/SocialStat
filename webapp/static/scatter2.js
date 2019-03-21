@@ -93,7 +93,7 @@ var trace6 = {
 var data = [trace1,trace2,trace3,trace4,trace5,trace6];
 
 var layout = {
-    title: 'Likes vs Comments',
+    title: 'Likes vs Comments by Food Chain',
     font: {
         size: 12
     },
