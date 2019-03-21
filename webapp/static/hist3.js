@@ -6,7 +6,7 @@ trace1 = {
 }
     data = [trace1]
 var layout = {
-    title: 'Histrogram of Average Comments',
+    title: 'Histogram of Average Comments',
     font: {
         size: 12
     }
